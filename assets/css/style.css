@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex');
 *{
+    /* border: 1px solid red !important; */
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -67,6 +68,10 @@ a{
 }
 /* font size css end */
 
+.container-fluid{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
 /* background color css start */
 .bg-main{
     background: var(--main-bg);
@@ -253,8 +258,6 @@ color: #2F4858;
         height: 400px !important;
     }
 }
-
-
 /* --Home-section-styling-end-from-here--- */
 
 
@@ -383,7 +386,6 @@ color: #2F4858;
         width: 270px !important;
         height: 250px !important;
     }
-}
 
     .container-fluid{
         padding-left: 5px !important;
@@ -405,7 +407,7 @@ color: #2F4858;
         font-size: 18px !important;
     }
 
-} */
+}
 /* --NEW-IN-SECTION-styling-Start-from-here--- */
 
 /* --Fine-Jewelry-SECTION-styling-Start-from-here--- */
@@ -433,14 +435,13 @@ color: #2F4858;
     width: auto !important;
 }
 .fine-card-img{
-    width: 250px !important;
-    height: 400px !important;
+    width: 260px !important;
+    height: 370px !important;
 }
 .fine-card-img img{
     width: 100% !important;
     height: 100% !important;
     object-position: cover !important;
-    /* object-position: contain; */
 }
 .fine-jewelry-section .owl-carousel .owl-dots,
 .fine-jewelry-section .owl-carousel .owl-nav{
@@ -472,7 +473,7 @@ color: #2F4858;
     background:#E1D6C4 !important;
 }
 .fine-jewelry-section .view-content{
-    top: 93% !important;
+    top: 95% !important;
 }
 @media (max-width:768px){
     .fine-jewelry-section .slider-content2 .fine-card-img{
@@ -595,13 +596,12 @@ color: #2F4858;
     color: #000000;
 }
 .services-subject-section .img-div{
-    height: 400px !important;
-    width: 250px !important;  
+    height: 370px !important;
+    width: 270px !important;
 }
 .services-subject-section .img-div img{
     width: 100% !important;
     height: 100% !important;
-    object-position: cover !important;
 }
 @media (max-width:768px){
     .services-subject-section .img-div{
