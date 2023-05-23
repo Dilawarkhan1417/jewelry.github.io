@@ -195,7 +195,7 @@ color: #2F4858;
         padding-right: 10px !important;
     }
     .home-section{
-        height: 110vh !important;
+        height: 90vh !important;
     }
     .top-bar{
         display: none !important;
@@ -204,8 +204,8 @@ color: #2F4858;
         flex-direction: column-reverse !important;
     }
     .home-into .slider{
-        margin-top: 10px !important;
-        height: 30vh !important;       
+        margin-top: 1px !important;
+        height: 10vh !important;       
     }
     .title-1{
         font-size: 25px;
@@ -225,7 +225,7 @@ color: #2F4858;
         font-size: 12px !important;
     }
     .home-into .img-bag{
-        height: 100vh !important;
+        height: 50vh !important;
         display: flex !important;
         justify-content: center !important;
     }
@@ -235,6 +235,10 @@ color: #2F4858;
         width: 310px !important;
         height: 400px !important;
     }
+}
+
+@media (max-width:390px) {
+
 }
 /* --Home-section-styling-end-from-here--- */
 
