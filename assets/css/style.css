@@ -189,7 +189,7 @@ color: #2F4858;
         font-size: 20px;
     }
 }
-@media (max-width:480px) {
+@media (max-width:490px) {
     .container-fluid{
         padding-left: 10px !important;
         padding-right: 10px !important;
@@ -206,6 +206,9 @@ color: #2F4858;
     .home-into .slider{
         margin-top: 1px !important;
         height: 10vh !important;       
+    }
+    .home-section .owl-theme .owl-dots .owl-dot span{
+        display: none !important;
     }
     .title-1{
         font-size: 25px;
@@ -436,6 +439,9 @@ color: #2F4858;
     .fine-jewelry-section  .owl-carousel .owl-dot{
         display: none !important;
     }
+    .slider-content2 .card{
+        width: 200px !important;
+    }
 }
 /* --Fine-Jewelry-SECTION-styling-end-from-here--- */
 
@@ -477,6 +483,13 @@ color: #2F4858;
     .services-subject-section .img-div{
         height: 400px !important;
         width: 320px !important;
+    }
+   
+}
+@media (max-width:390px){
+    .services-subject-section .img-div{
+        height: 350px !important;
+        width: 270px !important;
     }
    
 }
