@@ -195,7 +195,7 @@ color: #2F4858;
         padding-right: 10px !important;
     }
     .home-section{
-        height: 100vh !important;
+        height: 110vh !important;
     }
     .top-bar{
         display: none !important;
@@ -208,15 +208,15 @@ color: #2F4858;
         height: 30vh !important;       
     }
     .title-1{
-        font-size: 20px;
+        font-size: 25px;
     }        
     .title-2{
-        font-size: 17px;
+        font-size: 20px;
     }
     .btn-lightgold
     {
-        padding: 4px 10px !important;
-        font-size: 10px !important;
+        padding: 6px 15px !important;
+        font-size: 14px !important;
         background: #C3AC88 !important;
     }
     .home-section .owl-carousel .owl-nav button.owl-prev,.home-section .owl-carousel .owl-nav button.owl-next{
@@ -225,15 +225,15 @@ color: #2F4858;
         font-size: 12px !important;
     }
     .home-into .img-bag{
-        height: 80vh !important;
+        height: 100vh !important;
         display: flex !important;
         justify-content: center !important;
     }
     .home-into .img-bag img{
         display: flex !important;
         justify-content: center !important;
-        width: 210px !important;
-        height: 300px !important;
+        width: 310px !important;
+        height: 400px !important;
     }
 }
 /* --Home-section-styling-end-from-here--- */
@@ -310,6 +310,10 @@ color: #2F4858;
 @media (max-width:480px){
     .text-dark-blue{
         font-size: 17px !important;
+    }
+    .new-card-img{
+        width: 180px !important;
+        height: 220px !important;
     }
 }
 /* --NEW-IN-SECTION-styling-Start-from-here--- */
@@ -468,9 +472,9 @@ color: #2F4858;
 @media (max-width:480px){
     .services-subject-section .img-div{
         height: 400px !important;
-        width: 380px !important;
+        width: 320px !important;
     }
-    
+   
 }
 /* --Services-Subject-SECTION-styling-end-from-here--- */
 
@@ -523,6 +527,17 @@ color: #2F4858;
     align-items: center;
     width: 50px !important;
     height: 30px !important;
+}
+
+@media (max-width:480px){
+    .content-footer{
+        text-align: center !important;
+        margin-top: 4px !important;
+    }
+    .copyright{
+        text-align: center !important;
+        margin-bottom: 5px !important;
+    } 
 }
 /* --Footer-SECTION-styling-end-from-here--- */
 
