@@ -163,9 +163,12 @@ color: #2F4858;
     text-align: start !important;
 }
 @media (max-width:768px) {
+    .navbar-toggler {
+        display: none !important;
+    }
     .container-fluid{
-        padding-left: 30px !important;
-        padding-right: 30px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
     .home-section{
         height: 80vh !important;
@@ -188,6 +191,14 @@ color: #2F4858;
     .title-2{
         font-size: 20px;
     }
+    .home-section .owl-carousel .owl-nav button.owl-next,.home-section .owl-carousel .owl-nav button.owl-prev{
+        color: var(--color-primary) !important;
+        border: 1px solid var(--color-primary) !important;
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50% !important;
+        font-size: 20px !important;
+     }
 }
 @media (max-width:490px) {
     .container-fluid{
@@ -305,6 +316,10 @@ color: #2F4858;
     display: none !important;
 }
 @media (max-width:768px){
+    .container-fluid{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
     .text-dark-blue{
         font-size: 20px !important;
     }
@@ -312,10 +327,10 @@ color: #2F4858;
     padding: 5px 40px !important;
     }
     .slider-content1 .new-card-img img{
-        width: 130px !important;
+        width: 150px !important;
     }
 }
-@media (max-width:480px){
+/* @media (max-width:480px){
     .container-fluid{
         padding-left: 20px !important;
         padding-right: 20px !important;
@@ -336,7 +351,7 @@ color: #2F4858;
     .btn-light-gold{
         padding: 7px 66px !important;
     }
-}
+} */
 @media (max-width:425px) {
     .container-fluid{
         padding-left: 15px !important;
@@ -461,23 +476,36 @@ color: #2F4858;
 }
 @media (max-width:768px){
     .fine-jewelry-section .slider-content2 .fine-card-img{
-        width: 180px !important;
+        width: 220px !important;
         height: 280px !important;
-    }
-    .fine-jewelry-section .slider-content2 .card-body h5{
-        font-size: 10px !important;
-    }
-    .fine-jewelry-section .tabs-nav-link{
-        font-size: 10px !important;
     }
     .fine-jewelry-section .view-content{
         top: 470px !important;
     }
-    .fine-jewelry-section .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    .fine-jewelry-section .owl-carousel .owl-nav button.owl-next,.fine-jewelry-section .owl-carousel .owl-nav button.owl-prev{
         width: 30px !important;
         height: 30px !important;
         font-size: 15px !important;
-     }  
+     }
+     .fine-jewelry-section .slider-content2 .card-body h5{
+        font-size: 12px !important;
+    }
+    .fine-jewelry-section .view-content{
+        bottom: -10px !important;
+        display: flex;
+        right: 45px !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .fine-jewelry-section .view-content a{
+       font-size: 17px !important;
+       text-align: center !important;
+    }
+     .fine-jewelry-section .fine-card-img{
+        width: 200px !important;
+        padding: 4px !important;
+        height: 300px !important;
+     }
 }
 @media (max-width:480px){
     .fine-jewelry-section .slider-content2 .card-body h5{
@@ -577,14 +605,14 @@ color: #2F4858;
 }
 @media (max-width:768px){
     .services-subject-section .img-div{
-        height: 500px !important;
-        width: 330px !important;
+        height: 400px !important;
+        width: 300px !important;
     }
     .services-subject-section .text-services{
-        font-size: 13px;
+        font-size: 19px;
     }
     .services-subject-section .text-subject{
-        font-size: 11px;
+        font-size: 15px;
     } 
 }
 
