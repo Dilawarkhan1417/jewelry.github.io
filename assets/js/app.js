@@ -41,7 +41,7 @@ $('#casestudy').owlCarousel({
     autoplayTimeout:5000,
     responsive:{
         0:{
-          items: 2,
+          items: 1,
         },
         576:{
           items: 2,

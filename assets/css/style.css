@@ -191,11 +191,11 @@ color: #2F4858;
 }
 @media (max-width:490px) {
     .container-fluid{
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
     .home-section{
-        height: 90vh !important;
+        height: 100vh !important;
     }
     .top-bar{
         display: none !important;
@@ -207,25 +207,28 @@ color: #2F4858;
         margin-top: 1px !important;
         height: 10vh !important;       
     }
+    .home-into .slider .owl-carousel{
+        width: 300px !important;
+    }
     .home-section .owl-theme .owl-dots .owl-dot span{
         display: none !important;
     }
     .title-1{
-        font-size: 25px;
+        font-size: 40px;
     }        
     .title-2{
-        font-size: 20px;
+        font-size: 30px;
     }
     .btn-lightgold
     {
-        padding: 6px 15px !important;
-        font-size: 14px !important;
+        padding: 7px 66px !important;
+        font-size: 18px !important;
         background: #C3AC88 !important;
     }
     .home-section .owl-carousel .owl-nav button.owl-prev,.home-section .owl-carousel .owl-nav button.owl-next{
-        width: 25px !important;
-        height: 25px !important;
-        font-size: 12px !important;
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 19px !important;
     }
     .home-into .img-bag{
         height: 50vh !important;
@@ -240,9 +243,7 @@ color: #2F4858;
     }
 }
 
-@media (max-width:390px) {
 
-}
 /* --Home-section-styling-end-from-here--- */
 
 
@@ -315,13 +316,48 @@ color: #2F4858;
     }
 }
 @media (max-width:480px){
+    .container-fluid{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
     .text-dark-blue{
-        font-size: 17px !important;
+        font-size: 27px !important;
     }
     .new-card-img{
         width: 180px !important;
         height: 220px !important;
     }
+    .text-new-items{
+        font-size: 18px;
+    }
+    .text-stay{
+        font-size: 16px !important;
+    }
+    .btn-light-gold{
+        padding: 7px 66px !important;
+    }
+}
+@media (max-width:320px) {
+    .container-fluid{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .slider-content1 .new-card-img img{
+        width: 200px !important;
+        height: 250px !important;
+    }
+    .slider-content1 .new-card-img{
+        width: 450px !important;
+        height: 30vh !important;
+    }
+    .slider-content1{
+        height: 45vh !important;
+    }
+    .slider-content1 h4{
+        margin-top: 25px !important;
+        font-size: 18px !important;
+    }
+
 }
 /* --NEW-IN-SECTION-styling-Start-from-here--- */
 
@@ -413,7 +449,7 @@ color: #2F4858;
 }
 @media (max-width:480px){
     .fine-jewelry-section .slider-content2 .card-body h5{
-        font-size: 7px !important;
+        font-size: 12px !important;
     }
     .fine-jewelry-section .view-content{
         bottom: -10px !important;
@@ -423,7 +459,7 @@ color: #2F4858;
         align-items: center;
     }
     .fine-jewelry-section .view-content a{
-       font-size: 10px !important;
+       font-size: 17px !important;
        text-align: center !important;
     }
     .fine-jewelry-section .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
@@ -442,6 +478,35 @@ color: #2F4858;
     .slider-content2 .card{
         width: 200px !important;
     }
+}
+@media (max-width:320px) {
+    .slider-content2{
+        height: 60vh !important;
+    }
+    .slider-content2 .card{
+        width: 230px !important;
+    }
+    .slider-content2 .fine-card-img img{
+        width: 380px !important;
+    }
+    .slider-content2 h5{
+        font-size: 25px !important;
+        color: black !important;
+    }
+    .fine-card-img{
+        width: 350px !important;
+        height: 200px !important;
+    }
+    .fine-jewelry-section .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 19px !important;
+     }
+     .nav-item .tabs-nav-link,.view-content a{
+        margin-top: 5px !important;
+        font-size: 17px !important;
+     }
+
 }
 /* --Fine-Jewelry-SECTION-styling-end-from-here--- */
 
@@ -493,6 +558,19 @@ color: #2F4858;
     }
    
 }
+@media (max-width:320px) {
+    .services-subject-section .img-div{
+        height: 350px !important;
+        width: 240px !important;
+    }
+    .services-subject-section h3{
+        font-size: 19px !important;
+    }
+    .services-subject-section p{
+        font-size: 15px !important;
+    }
+
+}
 /* --Services-Subject-SECTION-styling-end-from-here--- */
 
 
@@ -500,6 +578,13 @@ color: #2F4858;
 .promise-section .border-card{
     border-right: 1px solid var(--color-primary) !important;   
 }
+@media (max-width:320px) {
+    .text-lightgold{
+        font-size: 18px !important;
+    }
+
+}
+
 /* --promise-SECTION-styling-end-from-here--- */
 
 
@@ -547,14 +632,24 @@ color: #2F4858;
 }
 
 @media (max-width:480px){
+    .content-footer a{
+        font-size: 17px !important;
+    }
     .content-footer{
-        text-align: center !important;
-        margin-top: 4px !important;
+        margin-top: 20px !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    
     }
     .copyright{
         text-align: center !important;
-        margin-bottom: 5px !important;
+        font-size: 15px !important;
+
+        
     } 
+}
+@media (max-width:320px) {
+
 }
 /* --Footer-SECTION-styling-end-from-here--- */
 
